@@ -6,7 +6,6 @@
 node {
    // Mark the code checkout 'stage'....
    stage 'checkout'
-   sh 'echo 123'
 
    // Get some code from a GitHub repository
    git url: 'https://github.com/bjk543/jenkinsfile'
